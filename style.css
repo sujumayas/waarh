@@ -1,0 +1,30 @@
+body{
+	background-color:black;
+}
+
+h1 {
+	font-size:14px;
+	text-align:center;
+	margin-top:100px;
+}
+
+h1 pre{
+	color: #66ff8d;
+    display: block;
+    text-align: left;
+    max-width: 550px;
+    margin: 0 auto;
+   	animation: glow-shadow 4s infinite alternate;
+}
+
+@keyframes glow-shadow{
+	0%{
+		text-shadow:none;
+	}
+	95%{
+		text-shadow:none;
+	}
+	98%{
+		text-shadow: 1px 1px #19ec1996, 1px -1px #0cee0c80, -1px -1px #01c3017a, -1px 1px #1cc71c61;
+	}
+}
